@@ -1,4 +1,4 @@
-# :credit_card: payment-microservice
+# :credit_card: Payment Microservice
 
 :octocat: Technologies:
 - Eureka
