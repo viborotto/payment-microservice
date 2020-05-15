@@ -30,7 +30,7 @@ public class ClientService {
         if(!optionalClient.isPresent()){
             throw new ClientNotFoundException();
         }
-        
+
         return optionalClient.get();
     }
 }
