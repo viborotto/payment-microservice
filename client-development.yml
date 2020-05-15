@@ -1,0 +1,13 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/CARD_PAYMENTS_MS
+    username: root
+    password: gao7nuw4
+    initialization-mode: always
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
